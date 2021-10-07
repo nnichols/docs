@@ -16,6 +16,7 @@ jobs:
       - name: Generate TOC for Markdown files
         run: |
           set -eux
+          mkdir -p "${GITHUB_WORKSPACE}/.ci/"
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o ${GITHUB_WORKSPACE}/.ci/gh-md-toc
           chmod a+x ${GITHUB_WORKSPACE}/.ci/gh-md-toc
           TOC_MD_FILES=$(find . -name '*.md' -exec grep -l '<!--ts-->' {} \;)
