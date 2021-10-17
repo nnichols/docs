@@ -3,13 +3,13 @@
 Links to articles, talks, etc that I've found valuable over time
 
 <!--ts-->
-- [Links](#links)
-  - [Engineering Behaviors](#engineering-behaviors)
-  - [Principled Design](#principled-design)
-  - [Engineering Culture](#engineering-culture)
-  - [Technical Guides / Explanations](#technical-guides--explanations)
-    - [Clojure](#clojure)
-    - [Postgres](#postgres)
+* [Links](#links)
+   * [Engineering Behaviors](#engineering-behaviors)
+   * [Principled Design](#principled-design)
+   * [Engineering Culture](#engineering-culture)
+   * [Technical Guides / Explanations](#technical-guides--explanations)
+      * [Clojure](#clojure)
+      * [Postgres](#postgres)
 <!--te-->
 
 ## Engineering Behaviors
