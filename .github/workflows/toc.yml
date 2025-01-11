@@ -24,7 +24,7 @@ jobs:
             ${GITHUB_WORKSPACE}/.ci/gh-md-toc --insert --no-backup --hide-footer "$md"
           done
 
-      - uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      - uses: stefanzweifel/git-auto-commit-action@v5.1.0
         with:
           commit_message: |
             [lint] Generate Table Of Contents
